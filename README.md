@@ -33,13 +33,14 @@ Certifique-se de que seu compilador C suporta a biblioteca OpenMP. A maioria dos
 O código Python para gerar imagens utiliza as bibliotecas NumPy e Matplotlib. Certifique-se de ter essas bibliotecas instaladas em seu ambiente Python. Você pode instalar as bibliotecas usando pip:
 
 > pip install numpy
+
 > pip install matplotlib
 
 ## Compilação:
 
 Abra um terminal ou prompt de comando no diretório onde o código-fonte C está localizado.
 
-> cd "caminho/do/arquivo"
+> cd "caminho/dos/arquivo"
 
 Compile o código C usando o seguinte comando, habilitando a opção de compilação OpenMP:
 
