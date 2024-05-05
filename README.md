@@ -1,12 +1,16 @@
-     ________________________
-    /  ____________________  \
-   |  |                    |  |
-   |  | C:\> Version 1.0_  |  |
-   |  |                    |  |
-   |  |                    |  |
-   |  |____________________|  |
-    \________________________/
-         \_____________/
+             ,----------------, 
+        ,-----------------------, 
+      ,"                      ,"|   
+     +-----------------------+  | 
+     |  .-----------------.  |  | 
+     |  |                 |  |  | 
+     |  |                 |  |  |  
+     |  |   Version 1.0   |  |  |
+     |  |                 |  |  | 
+     |  |                 |  |  |
+     |  `-----------------'  |,"
+     +-----------------------+ 
+        /_)______________(_/ 
 
 > [!IMPORTANT]
 > O projeto não possui nenhum indicativo de loops recomendados por hardware, **utilize com cautela!**
@@ -28,34 +32,34 @@ Você pode usar qualquer ambiente de desenvolvimento integrado (IDE) de sua pref
 Certifique-se de que seu compilador C suporta a biblioteca OpenMP. A maioria dos compiladores modernos oferece suporte a OpenMP, mas pode ser necessário habilitar explicitamente a opção de compilação.
 O código Python para gerar imagens utiliza as bibliotecas NumPy e Matplotlib. Certifique-se de ter essas bibliotecas instaladas em seu ambiente Python. Você pode instalar as bibliotecas usando pip:
 
-> `pip install numpy`
-> `pip install matplotlib`
+> pip install numpy
+> pip install matplotlib
 
 ## Compilação:
 
 Abra um terminal ou prompt de comando no diretório onde o código-fonte C está localizado.
 
-> `cd "caminho/do/arquivo"`
+> cd "caminho/do/arquivo"
 
 Compile o código C usando o seguinte comando, habilitando a opção de compilação OpenMP:
 
 ### Para GCC (Linux):
-> `gcc exampleOpenMP.c -o example -fopenmp`
-> `gcc finalOpenMP.c -o final -fopenmp`
+> gcc exampleOpenMP.c -o example -fopenmp
+> gcc finalOpenMP.c -o final -fopenmp
 
 ### Para Clang (macOS):
-> `clang exampleOpenMP.c -o example -fopenmp`
-> `clang finalOpenMP.c -o final -fopenmp`
+> clang exampleOpenMP.c -o example -fopenmp
+> clang finalOpenMP.c -o final -fopenmp
 
 ### Para MinGW (Windows):
-> `gcc exampleOpenMP.c -o example -fopenmp`
-> `gcc finalOpenMP.c -o final -fopenmp`
+> gcc exampleOpenMP.c -o example -fopenmp
+> gcc finalOpenMP.c -o final -fopenmp
 
 ## Execução:
 
 Após a compilação bem-sucedida, execute o programa C com o seguinte comando:
 
-> `./NomeDoExecutavel`
+> ./NomeDoExecutavel
 
 ## Observação:
 
