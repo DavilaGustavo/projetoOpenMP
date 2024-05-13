@@ -81,6 +81,6 @@ Após a compilação bem-sucedida, execute o programa C com o seguinte comando:
 
 ## Observação:
 
-Este projeto inclui um código em Python para gerar imagens, embora não seja o foco principal do estudo em multithreading. Certifique-se de ajustar os parâmetros e as operações conforme necessário para atender aos requisitos do seu teste de desempenho em Python.
+Esse projeto inclui um código em Python para gerar imagens, embora não seja o foco principal do estudo em multithreading. Certifique-se de ajustar os parâmetros e as operações conforme necessário para atender aos requisitos do seu teste de desempenho em Python.
 
 Se encontrar algum problema durante a execução, verifique mensagens de erro específicas e ajuste conforme necessário.
